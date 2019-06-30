@@ -1,11 +1,7 @@
 <h1 align="center">Head-First-Design-Patterns</h1>
 
 <p align="center">
-  <a href="http://codemx.cn"><img src="" alt="博客">
-  </a>
-  <a href="https://www.jianshu.com/u/3ed3336df2c6"><img src="" alt="简书">
-  </a>
-  <a href="https://juejin.im/user/57a30b4f0a2b580058390a91"><img src="" alt="掘金">
+  <a href="http://codemx.cn"><img src="https://img.shields.io/badge/博客-blog-brightgreen.svg" alt="博客">
   </a>
 </p>
 
