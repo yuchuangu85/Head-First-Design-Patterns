@@ -44,4 +44,5 @@
 * [二十三种设计模式](https://www.jianshu.com/p/4e01479b6a2c)
 * [二十三种设计模式Github](https://github.com/Shimingli/AndriodDesignPattern)
 * [23种设计模式全面解析（超级详细）](http://c.biancheng.net/design_pattern/)
+* [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html)
 
