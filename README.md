@@ -37,7 +37,7 @@
 #### 策略模式（Strategy）
 * 定义：定义了算法族，分别封装起来，让它们之间可以互相替换（多态），此模式让算法的变化独立于使用算法的客户。
 * 类图
-![Strategy](/uml/Strategy.png)
+![Strategy](/uml/Strategy.jpg)
 
 
 ## 其他参考资料
