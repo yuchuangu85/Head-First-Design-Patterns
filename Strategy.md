@@ -5,6 +5,7 @@
 
 ## 类图
 ![Strategy](/uml/Strategy.jpg)
+![StrategyDemo](/uml/StrategyDemo.jpg)
 
 ## 策略模式三要素：
 - Strategy：抽象策略类
