@@ -3,6 +3,10 @@
 ## 定义：
 提供一个接口，用于创建相关或依赖对象的家族，而不需要明确指定具体的类。
 
+## UML图
+![AbstractFactory](/uml/AbstractFactory.jpg)
+![AbstractFactoryDemo](/uml/AbstractFactoryDemo.jpg)
+
 ## 抽象工厂方法组成及条件
 
 ```

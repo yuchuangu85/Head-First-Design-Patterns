@@ -1,17 +1,16 @@
 package headfirst.designpatterns.factory.abstractfactory;
 
-import headfirst.designpatterns.factory.abstractfactory.factory.ChicagoStylePizzaStore;
-import headfirst.designpatterns.factory.abstractfactory.factory.NYStylePizzaStore;
-import headfirst.designpatterns.factory.abstractfactory.factory.PizzaStore;
-import headfirst.designpatterns.factory.abstractfactory.product.Pizza;
+import headfirst.designpatterns.factory.abstractfactory.factory.ChicagoPizzaIngredientFactory;
+import headfirst.designpatterns.factory.abstractfactory.factory.NYPizzaIngredientFactory;
+import headfirst.designpatterns.factory.abstractfactory.product.pizza.Pizza;
 
 public class FactoryClient {
 
     public static void main(String[] args) {
-        PizzaStore pizzaStore = new NYStylePizzaStore();
+        PizzaStore pizzaStore = new NYStylePizzaStore(new NYPizzaIngredientFactory());
         orderPizza(pizzaStore);
 
-        pizzaStore = new ChicagoStylePizzaStore();
+        pizzaStore = new ChicagoStylePizzaStore(new ChicagoPizzaIngredientFactory());
         orderPizza(pizzaStore);
     }
 

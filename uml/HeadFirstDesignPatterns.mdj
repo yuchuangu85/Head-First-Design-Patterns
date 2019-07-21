@@ -17382,7 +17382,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFsEmVwtRnhLqI="
 					},
-					"name": "FactoryDemo",
+					"name": "SimpleFactoryDemo",
 					"ownedElements": [
 						{
 							"_type": "UMLClass",
@@ -17621,7 +17621,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFsEmXPMBoB6wk="
 							},
-							"name": "FactoryDemo",
+							"name": "SimpleFactoryDemo",
 							"ownedViews": [
 								{
 									"_type": "UMLClassView",
@@ -17681,9 +17681,9 @@
 													"font": "Arial;13;0",
 													"left": -32,
 													"top": 48,
-													"width": 116.2890625,
+													"width": 156.025390625,
 													"height": 13,
-													"text": "(from FactoryDemo)"
+													"text": "(from SimpleFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -17887,9 +17887,9 @@
 													"font": "Arial;13;0",
 													"left": 80,
 													"top": 48,
-													"width": 116.2890625,
+													"width": 156.025390625,
 													"height": 13,
-													"text": "(from FactoryDemo)"
+													"text": "(from SimpleFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -18091,9 +18091,9 @@
 													"fillColor": "#49ffe0",
 													"font": "Arial;13;0",
 													"left": 176,
-													"width": 116.2890625,
+													"width": 156.025390625,
 													"height": 13,
-													"text": "(from FactoryDemo)"
+													"text": "(from SimpleFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -18348,9 +18348,9 @@
 													"font": "Arial;13;0",
 													"left": 32,
 													"top": 176,
-													"width": 116.2890625,
+													"width": 156.025390625,
 													"height": 13,
-													"text": "(from FactoryDemo)"
+													"text": "(from SimpleFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -18534,9 +18534,9 @@
 													"font": "Arial;13;0",
 													"left": 32,
 													"top": 176,
-													"width": 116.2890625,
+													"width": 156.025390625,
 													"height": 13,
-													"text": "(from FactoryDemo)"
+													"text": "(from SimpleFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -18720,9 +18720,9 @@
 													"font": "Arial;13;0",
 													"left": 32,
 													"top": 176,
-													"width": 116.2890625,
+													"width": 156.025390625,
 													"height": 13,
-													"text": "(from FactoryDemo)"
+													"text": "(from SimpleFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -18906,9 +18906,9 @@
 													"font": "Arial;13;0",
 													"left": 32,
 													"top": 176,
-													"width": 116.2890625,
+													"width": 156.025390625,
 													"height": 13,
-													"text": "(from FactoryDemo)"
+													"text": "(from SimpleFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -20056,7 +20056,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFsEmVwtRnhLqI="
 					},
-					"name": "AbstractFactoryDemo",
+					"name": "FactoryDemo",
 					"ownedElements": [
 						{
 							"_type": "UMLClass",
@@ -20590,7 +20590,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFsEnyv6yF12OU="
 							},
-							"name": "AbstractFactoryDemo",
+							"name": "FactoryDemo",
 							"ownedViews": [
 								{
 									"_type": "UMLClassView",
@@ -20650,7 +20650,7 @@
 													"top": 48,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -20869,7 +20869,7 @@
 													"left": -144,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -21088,7 +21088,7 @@
 													"left": -144,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -21497,7 +21497,7 @@
 													"left": 288,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -21680,7 +21680,7 @@
 													"top": 32,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -21864,7 +21864,7 @@
 													"top": 16,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -22047,7 +22047,7 @@
 													"top": 32,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -22231,7 +22231,7 @@
 													"top": 32,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -22414,7 +22414,7 @@
 													"top": 32,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -22598,7 +22598,7 @@
 													"top": 32,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -22779,7 +22779,7 @@
 													"top": 16,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -22962,7 +22962,7 @@
 													"top": 16,
 													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryDemo)"
+													"text": "(from FactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -31186,7 +31186,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFsEmVwtRnhLqI="
 					},
-					"name": "AbstractFactoryPlus",
+					"name": "AbstractFactoryDemo",
 					"ownedElements": [
 						{
 							"_type": "UMLClassDiagram",
@@ -31194,7 +31194,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFsEw35uGZd/4k="
 							},
-							"name": "AbstractFactoryPlus",
+							"name": "AbstractFactoryDemo",
 							"ownedViews": [
 								{
 									"_type": "UMLClassView",
@@ -31251,9 +31251,9 @@
 													"font": "Arial;13;0",
 													"left": 160,
 													"top": -48,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -31446,9 +31446,9 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"top": 192,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -31694,9 +31694,9 @@
 													"font": "Arial;13;0",
 													"left": -48,
 													"top": 320,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -31954,9 +31954,9 @@
 													"font": "Arial;13;0",
 													"left": 16,
 													"top": 304,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -32399,9 +32399,9 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"left": 128,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -32575,9 +32575,9 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"left": 144,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -32751,9 +32751,9 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"left": 128,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -32929,9 +32929,9 @@
 													"font": "Arial;13;0",
 													"left": 144,
 													"top": 16,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -33111,9 +33111,9 @@
 													"fillColor": "#6dceff",
 													"font": "Arial;13;0",
 													"left": 80,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -33292,9 +33292,9 @@
 													"fillColor": "#6dceff",
 													"font": "Arial;13;0",
 													"left": 80,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -33473,9 +33473,9 @@
 													"fillColor": "#6dceff",
 													"font": "Arial;13;0",
 													"left": 64,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -33654,9 +33654,9 @@
 													"fillColor": "#6dceff",
 													"font": "Arial;13;0",
 													"left": 80,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -33835,9 +33835,9 @@
 													"fillColor": "#6dceff",
 													"font": "Arial;13;0",
 													"left": 48,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -34016,9 +34016,9 @@
 													"fillColor": "#6dceff",
 													"font": "Arial;13;0",
 													"left": 80,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -34197,9 +34197,9 @@
 													"fillColor": "#6dceff",
 													"font": "Arial;13;0",
 													"left": 128,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",
@@ -34380,9 +34380,9 @@
 													"font": "Arial;13;0",
 													"left": 96,
 													"top": -16,
-													"width": 154.58447265625,
+													"width": 163.97265625,
 													"height": 13,
-													"text": "(from AbstractFactoryPlus)"
+													"text": "(from AbstractFactoryDemo)"
 												},
 												{
 													"_type": "LabelView",

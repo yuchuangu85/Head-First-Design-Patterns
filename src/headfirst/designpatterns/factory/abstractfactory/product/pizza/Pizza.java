@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.factory.product;
+package headfirst.designpatterns.factory.abstractfactory.product.pizza;
 
 public abstract class Pizza {
 
