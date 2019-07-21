@@ -1,4 +1,6 @@
-package headfirst.designpatterns.observer;
+package headfirst.designpatterns.observer.subject;
+
+import headfirst.designpatterns.observer.observer.Observer;
 
 /**
  * 主题接口

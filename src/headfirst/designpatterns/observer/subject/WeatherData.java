@@ -1,7 +1,9 @@
-package headfirst.designpatterns.observer;
+package headfirst.designpatterns.observer.subject;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import headfirst.designpatterns.observer.observer.Observer;
 
 /**
  * 具体主题

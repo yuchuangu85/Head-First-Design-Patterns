@@ -1,4 +1,7 @@
-package headfirst.designpatterns.observer;
+package headfirst.designpatterns.observer.observer;
+
+import headfirst.designpatterns.observer.DisplayElement;
+import headfirst.designpatterns.observer.subject.Subject;
 
 /**
  * 具体观察者

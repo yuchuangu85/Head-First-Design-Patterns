@@ -1,4 +1,4 @@
-package headfirst.designpatterns.observer;
+package headfirst.designpatterns.observer.observer;
 
 /**
  * 观察者接口
