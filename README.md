@@ -43,6 +43,9 @@
 * [观察者模式](Observer.md)
 * [装饰者模式](Decorator.md)
 * [单例模式](Singleton.md)
+* [简单工厂模式](SimpleFactory.md)
+* [工厂模式](Factory.md)
+* [抽象工厂模式](AbstractFactory.md)
 
 
 ## 其他参考资料
