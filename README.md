@@ -46,6 +46,8 @@
 * [简单工厂模式](SimpleFactory.md)
 * [工厂模式](Factory.md)
 * [抽象工厂模式](AbstractFactory.md)
+* [适配器模式](Adapter.md)
+* [外观模式](Facade.md)
 
 
 ## 其他参考资料
