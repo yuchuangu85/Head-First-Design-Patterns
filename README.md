@@ -31,7 +31,7 @@
 * 单一职责原则
 * 开闭原则
 * 里氏替换原则
-* 依赖导致原则
+* 依赖倒置原则
 * 接口隔离原则
 * 迪米特原则
 
@@ -39,13 +39,13 @@
 
 >每个模式中的优点、缺点以及适用环境均来自《图解设计模式》
 
-* [策略模式](Strategy.md)
-* [观察者模式](Observer.md)
-* [装饰者模式](Decorator.md)
-* [单例模式](Singleton.md)
-* [简单工厂模式](SimpleFactory.md)
-* [工厂模式](Factory.md)
-* [抽象工厂模式](AbstractFactory.md)
+* [策略模式](md/Strategy.md)
+* [观察者模式](md/Observer.md)
+* [装饰者模式](md/Decorator.md)
+* [单例模式](md/Singleton.md)
+* [简单工厂模式](md/SimpleFactory.md)
+* [工厂模式](md/Factory.md)
+* [抽象工厂模式](md/AbstractFactory.md)
 
 
 ## 其他参考资料

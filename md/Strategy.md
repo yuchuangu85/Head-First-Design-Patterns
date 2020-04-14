@@ -4,8 +4,8 @@
 定义了算法族，分别封装起来，让它们之间可以互相替换（多态），此模式让算法的变化独立于使用算法的客户。
 
 ## 类图
-![Strategy](/uml/Strategy.jpg)
-![StrategyDemo](/uml/StrategyDemo.jpg)
+![Strategy](../uml/Strategy.jpg)
+![StrategyDemo](../uml/StrategyDemo.jpg)
 
 ## 三要素：
 - Strategy：抽象策略类
