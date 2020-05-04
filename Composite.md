@@ -1,4 +1,4 @@
-<h1 align="center">建造者模式（Builder）</h1>
+<h1 align="center">组合模式（Composite）</h1>
 
 ## 定义：
 

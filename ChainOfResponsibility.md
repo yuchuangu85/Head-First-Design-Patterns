@@ -1,10 +1,10 @@
-<h1 align="center">建造者模式（Builder）</h1>
+<h1 align="center">责任链模式（Chain of Responsibility）</h1>
 
 ## 定义：
 
 
 ## UML图：
-![Adapter](/uml/Builder.jpg)
+
 
 ## 优点：
 - 

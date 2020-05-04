@@ -1,4 +1,4 @@
-<h1 align="center">建造者模式（Builder）</h1>
+<h1 align="center">解释器模式（Interpreter）</h1>
 
 ## 定义：
 
