@@ -1,7 +1,7 @@
 <h1 align="center">中介模式（Mediator）</h1>
 
 ## 定义：
-
+使用中介者模式来集中相关对象之间复杂的沟通和控制方式。
 
 ## UML图：
 ![Mediator](/uml/Mediator.jpg)

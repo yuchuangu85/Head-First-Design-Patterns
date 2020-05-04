@@ -10,9 +10,11 @@
 ## 分类
 |类型|中文名称|英文名称|
 |:---:|---|---|
-|创建型模式|工厂方法模式<br>抽象工厂模式<br>单例模式<br>建造者模式<br>原型模式|Factory Method<br>Abstract Factory<br>Singleton<br>Builder<br>Prototype|
-|结构型模式|适配器模式<br>装饰器模式<br>代理模式<br>外观模式<br>桥接模式<br>组合模式<br>享元模式|Adapter<br>Decorator<br>Proxy<br>Facade<br>Bridge<br>Composite<br>Flyweight|
-|行为型模式|策略模式<br>模板方法模式<br>观察者模式<br>迭代器模式<br>责任链模式<br>命令模式<br>备忘录模式<br>状态模式<br>访问者模式<br>中介者模式<br>解释器模式|Strategy<br>Template Methed<br>Observer<br>Iterator<br>Chain Of Responsibility<br>Command<br>Memento<br>State<br>Visitor<br>Mediator<br>Interpreter|
+|创建型模式|[工厂方法模式](md/Factory.md)<br>[抽象工厂模式](md/AbstractFactory.md)<br>[简单工厂模式](md/SimpleFactory.md)<br>[单例模式](md/Singleton.md)<br>[建造者模式](md/Builder.md)<br>[原型模式](md/Prototype.md)|Factory Method<br>Abstract Factory<br>Simple Factory<br>Singleton<br>Builder<br>Prototype|
+|结构型模式|[适配器模式](md/Adapter.md)<br>[装饰者模式](md/Decorator.md)<br>[代理模式](md/Proxy.md)<br>[外观模式](md/Facade.md)<br>[桥接模式](md/Bridge.md)<br>[组合模式](md/Composite.md)<br>[享元模式](md/Flyweight.md)|Adapter<br>Decorator<br>Proxy<br>Facade<br>Bridge<br>Composite<br>Flyweight|
+|行为型模式|[策略模式](md/Strategy.md)<br>[模板方法模式](md/TemplateMethed.md)<br>[观察者模式](md/Observer.md)<br>[迭代器模式](md/Iterator.md)<br>[责任链模式](md/ChainOfResponsibility.md)<br>[命令模式](md/Command.md)<br>[备忘录模式](md/Memento.md)<br>[状态模式](md/State.md)<br>[访问者模式](md/Visitor.md)<br>[中介者模式](md/Mediator.md)<br>[解释器模式](md/Interpreter.md)|Strategy<br>Template Methed<br>Observer<br>Iterator<br>Chain Of Responsibility<br>Command<br>Memento<br>State<br>Visitor<br>Mediator<br>Interpreter|
+
+>每个模式中的优点、缺点以及适用环境均来自 [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html) 和 [23种设计模式全面解析（超级详细）](http://c.biancheng.net/design_pattern/)
 
 ## Java基础
 * 抽象
@@ -34,22 +36,6 @@
 * 依赖倒置原则
 * 接口隔离原则
 * 迪米特原则
-
-## 设计模式
-
->每个模式中的优点、缺点以及适用环境均来自《图解设计模式》
-
-
-* [策略模式](md/Strategy.md)
-* [观察者模式](md/Observer.md)
-* [装饰者模式](md/Decorator.md)
-* [单例模式](md/Singleton.md)
-* [简单工厂模式](md/SimpleFactory.md)
-* [工厂模式](md/Factory.md)
-* [抽象工厂模式](md/AbstractFactory.md)
-* [适配器模式](md/Adapter.md)
-* [外观模式](md/Facade.md)
-
 
 ## ComputeHeatIndex
 ```java
