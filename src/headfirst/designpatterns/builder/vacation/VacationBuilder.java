@@ -1,6 +1,5 @@
 package headfirst.designpatterns.builder.vacation;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
