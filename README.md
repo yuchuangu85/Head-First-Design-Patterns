@@ -7,11 +7,11 @@
 [toc]
 
 
+
+
 >Head First 设计模式总结
 
 ## 设计模式分类
-
----
 
 |类型|中文名称|英文名称|
 |:---:|---|---|
@@ -24,8 +24,6 @@
 * **行为模式**：负责对象间的高效沟通和职责委派。
 
 ## Java基础
-
----
 
 * 抽象
 * 封装
@@ -41,8 +39,6 @@
 
 ## 六大设计原则
 
----
-
 * 单一职责原则：就一个类而言，应该仅有一个引起它变化的原因
 * 开闭原则：软件中的对象（类、模块、函数等）应该对于扩展是开放的，但是对于修改是封闭的
 * 里氏替换原则：所有引用基类的地方必须能透明地使用其子类的对象。（核心：抽象）
@@ -55,8 +51,6 @@
 
 ## Head First设计原则
 
----
-
 * 找出应用中可能需要变化之处，把它们独立出来进行封装，不要和那些不需要变化的代码混在一起，以便以后可以轻易的改动或者扩充此部分，而不影响不需要变化的部分。
 * 针对接口（抽象类或者接口）编程，而不是针对实现编程。（接口代表每个行为，而行为的每个实现都将实现其中的一个接口）--多态
 * 多用组合，少用继承。
@@ -65,13 +59,9 @@
 
 ## UML图谱
 
----
-
 <img src="media/image-20210218222749625.png" alt="image-20210218222749625" style="zoom:50%;" />
 
 ## ComputeHeatIndex
-
----
 
 ```java
 private float computeHeatIndex(float t, float rh) {
@@ -88,8 +78,6 @@ private float computeHeatIndex(float t, float rh) {
 ```
 
 ## 参考资料
-
-----
 
 * [二十三种设计模式Github](https://github.com/Shimingli/AndriodDesignPattern)
 * [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html)
