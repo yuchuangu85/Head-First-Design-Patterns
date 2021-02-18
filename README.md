@@ -126,6 +126,142 @@
    * 无论接口还是抽象类，都无法直接实例化，其自身实例化需要靠实现类或子类来实现。
    * 接口和抽象类都必须实现其中的所有方法。
 
+## 依赖注入
+
+* 三种注入方式：
+
+   * 构造器注入
+
+      ```java
+      public class UserServiceImpl implements UserService {
+      
+          private UserMapper userMapper;
+      
+          /**
+           * 构造方法注入
+           * @param userMapper
+           */
+          public UserServiceImpl(UserMapper userMapper) {
+              this.userMapper = userMapper;
+          }
+      
+          @Override
+          public void test() {
+              userMapper.test();
+          }
+      }
+      ```
+
+   * Setter方法注入
+
+      ```java
+      public class UserServiceImpl implements UserService {
+      
+          private UserMapper userMapper;
+      
+          /**
+           * setter方法注入
+           * @param userMapper
+           */
+          public void setUserMapper(UserMapper userMapper) {
+              this.userMapper = userMapper;
+          }
+      
+          @Override
+          public void test() {
+              userMapper.test();
+          }
+      
+      }
+      ```
+
+   * 接口注入
+
+      ```java
+      /**
+       * Description:mapper接口
+       *
+       * @author JourWon
+       * @date 2019/11/4 14:51
+       */
+      public interface UserMapper {
+          void createUserMapper(UserMapper userMapper);
+          void test();
+      }
+      
+      /**
+       * Description:service接口
+       *
+       * @author JourWon
+       * @date 2019/11/4 16:39
+       */
+      public interface UserService {
+          void test();
+      }
+      
+      /**
+       * Description:service实现类
+       *
+       * @author JourWon
+       * @date 2019/11/4 14:55
+       */
+      public class UserServiceImpl implements UserService, UserMapper {
+      
+          private UserMapper userMapper;
+      
+          @Override
+          public void createUserMapper(UserMapper userMapper) {
+              this.userMapper = userMapper;
+          }
+      
+          @Override
+          public void test() {
+              userMapper.test();
+          }
+      }
+      ```
+
+* 依赖查找：
+
+   * 上下文依赖查找(Contextualized Dependency Lookup)
+
+      ```java
+      public class UserServiceImpl {
+      
+          private DataSource dataSource;
+      
+          private UserMapper userMapper;
+      
+          public UserServiceImpl(){
+              Context context = null;
+              try{
+                  context = new InitialContext();
+                  dataSource = (DataSource) context.lookup("java:com/jourwon/dataSourceName");
+                  userMapper = (UserMapper) context.lookup("java:com/jourwon/UserMapperName");
+              } catch (Exception e) {
+      
+              }
+          }
+      
+      }
+      ```
+
+   * 依赖拖拽 (Dependency Pull)：注入的对象如何与组件发生联系，这个过程就是通过依赖拖拽实现 。(较少有使用)
+
+      ```java
+      public class UserServiceTest {
+          
+          public static void main(String[] args) {
+              ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("classpath:spring-ioc.xml");
+              UserServiceImpl userService = (UserServiceImpl) classPathXmlApplicationContext.getBean("UserServiceImpl");
+              userService.test();
+          }
+          
+      }
+      ```
+
+      
+
 ## UML图谱
 
 <img src="media/image-20210218222749625.png" alt="image-20210218222749625" style="zoom:50%;" />
@@ -167,4 +303,5 @@ private float computeHeatIndex(float t, float rh) {
 * 《图解设计模式》
 * 《设计模式之禅》
 * [java 面向对象三大特性（封装，继承，多态）以及抽象、接口的介绍](https://blog.csdn.net/qq_22118507/article/details/51422591)
+* [依赖注入和控制反转的理解，写的太好了。](https://blog.csdn.net/bestone0213/article/details/47424255?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control)
 
