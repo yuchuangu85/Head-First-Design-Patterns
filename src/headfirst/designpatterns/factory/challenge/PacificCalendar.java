@@ -3,6 +3,8 @@ package headfirst.designpatterns.factory.challenge;
 import java.util.*;
 
 public class PacificCalendar extends Calendar {
+
+    // 依赖注入
     public PacificCalendar(ZoneFactory zoneFactory) {
         zone = zoneFactory.createZone("US/Pacific");
         // make a calendar for the pacific zone

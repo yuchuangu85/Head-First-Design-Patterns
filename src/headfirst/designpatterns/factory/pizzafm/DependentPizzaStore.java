@@ -4,24 +4,24 @@ public class DependentPizzaStore {
 
     public Pizza createPizza(String style, String type) {
         Pizza pizza = null;
-        if (style.equals("NY")) {
-            if (type.equals("cheese")) {
+        if ("NY".equals(style)) {
+            if ("cheese".equals(type)) {
                 pizza = new NYStyleCheesePizza();
-            } else if (type.equals("veggie")) {
+            } else if ("veggie".equals(type)) {
                 pizza = new NYStyleVeggiePizza();
-            } else if (type.equals("clam")) {
+            } else if ("clam".equals(type)) {
                 pizza = new NYStyleClamPizza();
-            } else if (type.equals("pepperoni")) {
+            } else if ("pepperoni".equals(type)) {
                 pizza = new NYStylePepperoniPizza();
             }
-        } else if (style.equals("Chicago")) {
-            if (type.equals("cheese")) {
+        } else if ("Chicago".equals(style)) {
+            if ("cheese".equals(type)) {
                 pizza = new ChicagoStyleCheesePizza();
-            } else if (type.equals("veggie")) {
+            } else if ("veggie".equals(type)) {
                 pizza = new ChicagoStyleVeggiePizza();
-            } else if (type.equals("clam")) {
+            } else if ("clam".equals(type)) {
                 pizza = new ChicagoStyleClamPizza();
-            } else if (type.equals("pepperoni")) {
+            } else if ("pepperoni".equals(type)) {
                 pizza = new ChicagoStylePepperoniPizza();
             }
         } else {
