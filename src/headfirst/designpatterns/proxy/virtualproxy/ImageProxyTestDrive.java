@@ -1,10 +1,11 @@
 package headfirst.designpatterns.proxy.virtualproxy;
 
-import java.net.*;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Enumeration;
+import java.util.Hashtable;
 
 import javax.swing.*;
-
-import java.util.*;
 
 public class ImageProxyTestDrive {
     ImageComponent imageComponent;
@@ -25,14 +26,14 @@ public class ImageProxyTestDrive {
         cds.put("Northern Exposure", "http://images.amazon.com/images/P/B000003SFN.01.LZZZZZZZ.jpg");
         cds.put("Selected Ambient Works, Vol. 2", "http://images.amazon.com/images/P/B000002MNZ.01.LZZZZZZZ.jpg");
 
-        URL initialURL = new URL((String) cds.get("Selected Ambient Works, Vol. 2"));
+        URL initialURL = new URL(cds.get("Selected Ambient Works, Vol. 2"));
         menuBar = new JMenuBar();
         menu = new JMenu("Favorite CDs");
         menuBar.add(menu);
         frame.setJMenuBar(menuBar);
 
         for (Enumeration<String> e = cds.keys(); e.hasMoreElements(); ) {
-            String name = (String) e.nextElement();
+            String name = e.nextElement();
             JMenuItem menuItem = new JMenuItem(name);
             menu.add(menuItem);
             menuItem.addActionListener(event -> {
@@ -54,7 +55,7 @@ public class ImageProxyTestDrive {
 
     URL getCDUrl(String name) {
         try {
-            return new URL((String) cds.get(name));
+            return new URL(cds.get(name));
         } catch (MalformedURLException e) {
             e.printStackTrace();
             return null;

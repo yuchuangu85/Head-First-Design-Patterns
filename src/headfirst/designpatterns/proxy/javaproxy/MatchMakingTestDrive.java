@@ -4,7 +4,7 @@ import java.lang.reflect.*;
 import java.util.*;
 
 public class MatchMakingTestDrive {
-    HashMap<String, PersonBean> datingDB = new HashMap<String, PersonBean>();
+    HashMap<String, PersonBean> datingDB = new HashMap<>();
 
     public static void main(String[] args) {
         MatchMakingTestDrive test = new MatchMakingTestDrive();
@@ -57,7 +57,7 @@ public class MatchMakingTestDrive {
     }
 
     PersonBean getPersonFromDatabase(String name) {
-        return (PersonBean) datingDB.get(name);
+        return datingDB.get(name);
     }
 
     void initializeDatabase() {
