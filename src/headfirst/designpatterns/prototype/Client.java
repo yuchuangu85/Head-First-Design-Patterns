@@ -21,7 +21,6 @@ public class Client {
             newMonster = monsterToCopy.copy();
             newMonster.setName(name);
         } catch (CloneNotSupportedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return newMonster;
